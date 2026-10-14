@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>QuickCal 개인정보처리방침 / Privacy Policy</title>
+<style>
+  body{font-family:"Malgun Gothic",system-ui,sans-serif;max-width:760px;margin:40px auto;padding:0 18px;line-height:1.7;color:#1f2430}
+  h1{margin-bottom:4px} h2{margin-top:32px;border-bottom:1px solid #ddd;padding-bottom:4px}
+  .sub{color:#667} nav a{margin-right:14px} code{background:#f1f3f7;padding:1px 6px;border-radius:4px}
+  .en{background:#f7f8fb;border-left:3px solid #4f8cff;padding:6px 14px;margin:8px 0}
+</style>
+</head>
+<body>
+<h1>QuickCal 개인정보처리방침</h1>
+<p class="sub">Privacy Policy · 시행일 / Effective: 2026-10-14</p>
+<nav><a href="index.html">홈 / Home</a><a href="privacy.html">개인정보처리방침</a><a href="terms.html">서비스 약관</a></nav>
+
+<h2>1. 개요 / Overview</h2>
+<p>QuickCal(이하 "앱")은 사용자의 Windows PC에서 실행되는 개인용 프로그램으로, 사용자가 입력한 일정을
+사용자의 구글 캘린더에 등록합니다. 앱 제작자는 별도의 서버를 운영하지 않으며 사용자의 데이터를 수집·저장·전송받지 않습니다.</p>
+<div class="en">QuickCal is a personal program that runs on your own Windows PC and creates the events you type in your own Google Calendar.
+The developer runs no server and does not collect, store, or receive your data.</div>
+
+<h2>2. 요청하는 구글 권한 / Google permissions requested</h2>
+<p>앱은 Google Calendar API 범위 <code>https://www.googleapis.com/auth/calendar</code> 를 요청합니다. 이 권한은 다음 목적으로만 사용됩니다.</p>
+<ul>
+  <li>사용자가 팝업에 입력한 제목·날짜·시간·알림 설정으로 사용자의 기본 캘린더에 일정을 생성</li>
+  <li>로그인한 계정을 구분하기 위해 기본 캘린더의 식별자(구글 계정 이메일 주소)를 조회</li>
+</ul>
+<div class="en">The app requests the Google Calendar scope above, used only to (1) create events from the title, date, time and reminder you enter in the popup,
+and (2) read the primary calendar ID (your account email) to tell your signed-in accounts apart.</div>
+
+<h2>3. 수집·저장되는 정보 / Data handled and where it is stored</h2>
+<ul>
+  <li><b>로그인 토큰(OAuth 토큰)</b>: 계정마다 사용자 PC의 앱 폴더(<code>tokens</code>) 안에 파일로만 저장됩니다. 외부로 전송되지 않습니다.</li>
+  <li><b>구글 계정 이메일 주소</b>: 계정 목록 표시를 위해 위 토큰 파일 이름으로만 PC에 저장됩니다.</li>
+  <li><b>일정 내용</b>: 앱은 일정 내용을 PC에 따로 저장하지 않으며, 입력 즉시 구글 캘린더로 전송합니다.</li>
+  <li>분석, 광고, 추적, 쿠키, 사용 통계 수집은 하지 않습니다.</li>
+</ul>
+<div class="en">OAuth tokens and the account email (as a file name) are stored only in the <code>tokens</code> folder on your PC. Event text is sent straight to Google Calendar and not kept by the app.
+No analytics, ads, tracking or telemetry.</div>
+
+<h2>4. 제3자 제공 및 공유 / Sharing</h2>
+<p>앱은 사용자의 구글 사용자 데이터를 제작자 또는 어떤 제3자에게도 제공·판매·공유하지 않습니다.
+데이터는 사용자의 PC와 구글 사이에서만 오갑니다.</p>
+<div class="en">We do not sell, share, or transfer Google user data to anyone. Data flows only between your PC and Google.</div>
+
+<h2>5. 구글 API 서비스 사용자 데이터 정책 준수 / Google API Services User Data Policy</h2>
+<div class="en">QuickCal's use and transfer to any other app of information received from Google APIs will adhere to the
+<a href="https://developers.google.com/terms/api-services-user-data-policy#additional_requirements_for_specific_api_scopes">Google API Services User Data Policy</a>,
+including the Limited Use requirements.</div>
+<p>앱은 구글 API로부터 받은 정보를 위 요청 목적(일정 등록) 외에 사용하지 않으며, 광고 목적이나 AI/머신러닝 모델 학습에 사용하지 않고,
+사람이 읽도록 열람하지 않습니다.</p>
+
+<h2>6. 보관 및 삭제 / Retention and deletion</h2>
+<ul>
+  <li>앱의 <code>tokens</code> 폴더에서 해당 계정 파일을 삭제하거나 앱 폴더를 삭제하면 PC 안의 모든 로그인 정보가 지워집니다.</li>
+  <li>구글 계정의 <a href="https://myaccount.google.com/permissions">앱 및 서비스 연결 관리</a>에서 QuickCal 접근 권한을 언제든지 철회할 수 있습니다.</li>
+  <li>이미 등록된 일정은 구글 캘린더에서 직접 삭제하세요.</li>
+</ul>
+<div class="en">Delete the account file in <code>tokens</code> (or the app folder) to remove all stored sign-in data, and revoke access any time at
+<a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</div>
+
+<h2>7. 아동 / Children</h2>
+<p>앱은 만 14세 미만 아동을 대상으로 하지 않습니다.</p>
+
+<h2>8. 방침 변경 / Changes</h2>
+<p>방침이 바뀌면 이 페이지에 변경 내용과 시행일을 게시합니다.</p>
+
+<h2>9. 문의 / Contact</h2>
+<p>YOUR_EMAIL@example.com</p>
+</body>
+</html>
